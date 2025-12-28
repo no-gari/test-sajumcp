@@ -3,6 +3,7 @@
 // 주의: 이 서버는 상태 유지가 필요하므로 Vercel Serverless가 아닌 Docker/Railway 등에 배포해야 합니다.
 
 import express from 'express';
+import cors from 'cors';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { SSEServerTransport } from '@modelcontextprotocol/sdk/server/sse.js';
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
@@ -11,6 +12,9 @@ import { interpretSaju, getSimpleSajuSummary } from './services/openaiService.js
 
 const app = express();
 const port = process.env.PORT || 3000;
+
+// CORS 설정: 모든 도메인 허용 (PlayMCP 등 외부 접속 허용)
+app.use(cors());
 
 // MCP 서버 설정
 const server = new Server(
