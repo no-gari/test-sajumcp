@@ -1,0 +1,122 @@
+{
+  "schema": {
+    "name": "ganji_stem_lexicon",
+    "version": "1.0",
+    "principle": "Heavenly stems are vectors of intent, not fixed personalities."
+  },
+  "stems": {
+    "甲": {
+      "desire_vector": "initiation",
+      "existential_drive": "to begin",
+      "tension_axis": ["speed", "responsibility"],
+      "force_profile": {
+        "direction": "outward",
+        "speed": "fast",
+        "compression": "low"
+      },
+      "meta_archetype_refs": ["Initiating Flame"]
+    },
+    "乙": {
+      "desire_vector": "adaptation",
+      "existential_drive": "to adjust",
+      "tension_axis": ["stability", "mutation"],
+      "force_profile": {
+        "direction": "outward",
+        "speed": "slow",
+        "compression": "medium"
+      },
+      "meta_archetype_refs": ["Adaptive Alchemist", "Boundary Mediator"]
+    },
+    "丙": {
+      "desire_vector": "exposure",
+      "existential_drive": "to reveal",
+      "tension_axis": ["expression", "burnout"],
+      "force_profile": {
+        "direction": "radiant",
+        "speed": "fast",
+        "compression": "low"
+      },
+      "meta_archetype_refs": ["Initiating Flame", "Driving Arrow"]
+    },
+    "丁": {
+      "desire_vector": "refinement",
+      "existential_drive": "to refine",
+      "tension_axis": ["precision", "fragility"],
+      "force_profile": {
+        "direction": "focused",
+        "speed": "slow",
+        "compression": "high"
+      },
+      "meta_archetype_refs": ["Adaptive Alchemist"]
+    },
+
+    "戊": {
+      "desire_vector": "anchoring",
+      "existential_drive": "to hold",
+      "tension_axis": ["stability", "stagnation"],
+      "force_profile": {
+        "direction": "central",
+        "speed": "slow",
+        "compression": "high"
+      },
+      "meta_archetype_refs": ["Accumulating Vessel", "Anchoring Core"]
+    },
+    "己": {
+      "desire_vector": "containment",
+      "existential_drive": "to preserve",
+      "tension_axis": ["protection", "control"],
+      "force_profile": {
+        "direction": "inward",
+        "speed": "slow",
+        "compression": "high"
+      },
+      "meta_archetype_refs": ["Preserving Guardian", "Boundary Mediator"]
+    },
+
+    "庚": {
+      "desire_vector": "breakthrough",
+      "existential_drive": "to cut through",
+      "tension_axis": ["force", "collision"],
+      "force_profile": {
+        "direction": "forward",
+        "speed": "fast",
+        "compression": "medium"
+      },
+      "meta_archetype_refs": ["Conflict Breaker", "Driving Arrow"]
+    },
+    "辛": {
+      "desire_vector": "conclusion",
+      "existential_drive": "to judge",
+      "tension_axis": ["clarity", "severance"],
+      "force_profile": {
+        "direction": "inward",
+        "speed": "slow",
+        "compression": "high"
+      },
+      "meta_archetype_refs": ["Concluding Judge"]
+    },
+
+    "壬": {
+      "desire_vector": "circulation",
+      "existential_drive": "to flow",
+      "tension_axis": ["adjustment", "self-loss"],
+      "force_profile": {
+        "direction": "circulatory",
+        "speed": "variable",
+        "compression": "low"
+      },
+      "meta_archetype_refs": ["Regulating Flow", "Transitional Evolver"]
+    },
+    "癸": {
+      "desire_vector": "reflection",
+      "existential_drive": "to understand",
+      "tension_axis": ["depth", "isolation"],
+      "force_profile": {
+        "direction": "downward",
+        "speed": "slow",
+        "compression": "high"
+      },
+      "meta_archetype_refs": ["Reflective Depth", "Transitional Evolver"]
+    }
+  }
+}

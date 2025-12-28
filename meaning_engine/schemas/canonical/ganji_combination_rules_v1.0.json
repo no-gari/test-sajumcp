@@ -1,0 +1,99 @@
+{
+  "schema": {
+    "name": "ganji_combination_rules",
+    "version": "1.0",
+    "source": "7-B-1_Ganji_Combination_Ontology_Core_v1.0"
+  },
+  "types": {
+    "Amplification": {
+      "ko": "증폭형",
+      "keywords": ["빠름", "명확함", "외현성"]
+    },
+    "Resistance": {
+      "ko": "저항형",
+      "keywords": ["지연", "숙성", "내면화"]
+    },
+    "Transformation": {
+      "ko": "변형형",
+      "keywords": ["우회", "전환", "이중성"]
+    },
+    "Latency": {
+      "ko": "잠복형",
+      "keywords": ["늦은 개화", "장기 서사", "축적"]
+    }
+  },
+  "decision": {
+    "priority": ["Transformation", "Latency", "Amplification", "Resistance"],
+   "rules": [
+  {
+    "id": "R0A",
+    "if": {
+      "stem.expression_in": ["high"],
+      "stem.speed_in": ["fast"],
+      "branch.exposure_in": ["latent"],
+      "branch.time_in": ["gestation", "storage"]
+    },
+    "then": {
+      "type": "Resistance",
+      "why": ["fast_expression_vs_latent_environment"]
+    }
+  },
+  {
+    "id": "R0B",
+    "if": {
+      "stem.compression_in": ["high"],
+      "branch.exposure_in": ["latent"],
+      "branch.time_in": ["gestation", "storage"]
+    },
+    "then": {
+      "type": "Latency",
+      "why": ["compression_matches_latency"]
+    }
+  },
+  {
+    "id": "R1",
+    "if": {
+      "branch.transformation_force_in": ["very_high", "high"]
+    },
+    "then": {
+      "type": "Transformation",
+      "why": ["branch_transformation_force_high"]
+    }
+  },
+  {
+    "id": "R2",
+    "if": {
+      "branch.exposure_in": ["latent"],
+      "branch.time_in": ["gestation", "storage"]
+    },
+    "then": {
+      "type": "Latency",
+      "why": ["latent_exposure", "long_time_axis"]
+    }
+  },
+  {
+    "id": "R3",
+    "if": {
+      "branch.exposure_in": ["high"],
+      "branch.time_in": ["immediate", "launch", "expansion"]
+    },
+    "then": {
+      "type": "Amplification",
+      "why": ["high_exposure", "fast_time_axis"]
+    }
+  },
+  {
+    "id": "R4",
+    "if": {
+      "branch.exposure_in": ["low"],
+      "branch.time_in": ["closure", "compression"]
+    },
+    "then": {
+      "type": "Resistance",
+      "why": ["low_exposure", "blocked_time_axis"]
+    }
+  }
+],
+    "fallback": { "type": "Resistance", "why": ["fallback"] }
+  }
+}

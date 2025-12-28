@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "engine": "TBOO_MEANING_ENGINE",
+    "version": "meaning_slots_v1.1",
+    "note": "Slots-only output. No materials, no narrative directives."
+  },
+  "subject": {
+    "name": "서장원",
+    "gender": "남성",
+    "birthday": "1995-02-25 10:30"
+  },
+  "context": {},
+  "pillars_ontology": {
+    "year": {
+      "gan": "乙",
+      "ji": "亥",
+      "stem_desire": {
+        "vector": "adaptation",
+        "existential_drive": "to adjust",
+        "force_profile": {
+          "direction": "outward",
+          "speed": "slow",
+          "compression": "medium"
+        },
+        "tension_axis": [
+          "stability",
+          "mutation"
+        ],
+        "meta_archetype_refs": [
+          "Adaptive Alchemist",
+          "Boundary Mediator"
+        ]
+      },
+      "branch_environment": {
+        "exposure": "latent",
+        "temperature": "cold",
+        "time": "gestation",
+        "transformation_force": "low"
+      },
+      "combination_type": "Latency",
+      "combination_judgement": {
+        "type": "Latency",
+        "why": [
+          "fallback"
+        ],
+        "rule_id": null
+      }
+    },
+    "month": {
+      "gan": "戊",
+      "ji": "寅",
+      "stem_desire": {
+        "vector": "anchoring",
+        "existential_drive": "to hold",
+        "force_profile": {
+          "direction": "central",
+          "speed": "slow",
+          "compression": "high"
+        },
+        "tension_axis": [
+          "stability",
+          "stagnation"
+        ],
+        "meta_archetype_refs": [
+          "Accumulating Vessel",
+          "Anchoring Core"
+        ]
+      },
+      "branch_environment": {
+        "exposure": "high",
+        "temperature": "rising",
+        "time": "launch",
+        "transformation_force": "medium"
+      },
+      "combination_type": "Latency",
+      "combination_judgement": {
+        "type": "Latency",
+        "why": [
+          "fallback"
+        ],
+        "rule_id": null
+      }
+    },
+    "day": {
+      "gan": "丁",
+      "ji": "亥",
+      "stem_desire": {
+        "vector": "refinement",
+        "existential_drive": "to refine",
+        "force_profile": {
+          "direction": "focused",
+          "speed": "slow",
+          "compression": "high"
+        },
+        "tension_axis": [
+          "precision",
+          "fragility"
+        ],
+        "meta_archetype_refs": [
+          "Adaptive Alchemist"
+        ]
+      },
+      "branch_environment": {
+        "exposure": "latent",
+        "temperature": "cold",
+        "time": "gestation",
+        "transformation_force": "low"
+      },
+      "combination_type": "Latency",
+      "combination_judgement": {
+        "type": "Latency",
+        "why": [
+          "fallback"
+        ],
+        "rule_id": null
+      }
+    },
+    "hour": {
+      "gan": "乙",
+      "ji": "巳",
+      "stem_desire": {
+        "vector": "adaptation",
+        "existential_drive": "to adjust",
+        "force_profile": {
+          "direction": "outward",
+          "speed": "slow",
+          "compression": "medium"
+        },
+        "tension_axis": [
+          "stability",
+          "mutation"
+        ],
+        "meta_archetype_refs": [
+          "Adaptive Alchemist",
+          "Boundary Mediator"
+        ]
+      },
+      "branch_environment": {
+        "exposure": "low",
+        "temperature": "inner_fire",
+        "time": "compression",
+        "transformation_force": "very_high"
+      },
+      "combination_type": "Latency",
+      "combination_judgement": {
+        "type": "Latency",
+        "why": [
+          "fallback"
+        ],
+        "rule_id": null
+      }
+    }
+  },
+  "meaning_payload": {
+    "natal": {
+      "slots": {
+        "existence_type": "existence.latent",
+        "desire_direction": "desire.refinement",
+        "emotion_engines": [],
+        "action_rhythm": null,
+        "pillars_combination_types": {
+          "year": "Latency",
+          "month": "Latency",
+          "day": "Latency",
+          "hour": "Latency"
+        }
+      },
+      "evidence": {
+        "pillars": {
+          "year": "乙亥",
+          "month": "戊寅",
+          "day": "丁亥",
+          "hour": "乙巳"
+        },
+        "sipshin": {
+          "원국_년간": "편인",
+          "원국_월간": "상관",
+          "원국_시간": "편인"
+        },
+        "unseong": {
+          "년지": "사",
+          "월지": "장생",
+          "일지": "태",
+          "시지": "목욕"
+        }
+      }
+    },
+    "fortune_2026_overall": {
+      "slots": {
+        "year_theme": [
+          "year_theme.by_상관",
+          "year_theme.state_rhythm.peak"
+        ],
+        "year_flow": [
+          {
+            "source": "원국_월간",
+            "gan": "戊",
+            "sipshin": "상관",
+            "unseong": "제왕"
+          },
+          {
+            "source": "원국_년간",
+            "gan": "乙",
+            "sipshin": "편인",
+            "unseong": "장생"
+          },
+          {
+            "source": "원국_시간",
+            "gan": "乙",
+            "sipshin": "편인",
+            "unseong": "장생"
+          },
+          {
+            "source": "세운_천간_2026",
+            "gan": "丙",
+            "sipshin": "겁재",
+            "unseong": "제왕"
+          }
+        ],
+        "anchors": {
+          "natal_exist": "existence.latent",
+          "natal_rhythm": null
+        }
+      },
+      "evidence": {
+        "flow": [
+          [
+            "원국_월간",
+            "戊",
+            "상관",
+            "제왕"
+          ],
+          [
+            "원국_년간",
+            "乙",
+            "편인",
+            "장생"
+          ],
+          [
+            "원국_시간",
+            "乙",
+            "편인",
+            "장생"
+          ],
+          [
+            "세운_천간_2026",
+            "丙",
+            "겁재",
+            "제왕"
+          ]
+        ],
+        "money": [
+          [
+            "정재",
+            "庚",
+            "목욕"
+          ],
+          [
+            "편재",
+            "辛",
+            "병"
+          ]
+        ],
+        "love": [
+          [
+            "정재",
+            "庚",
+            "목욕"
+          ],
+          [
+            "편재",
+            "辛",
+            "병"
+          ]
+        ],
+        "job": [
+          [
+            "상관",
+            "戊",
+            "제왕"
+          ],
+          [
+            "식신",
+            "己",
+            "건록"
+          ],
+          [
+            "정관",
+            "壬",
+            "태"
+          ],
+          [
+            "편관",
+            "癸",
+            "절"
+          ]
+        ]
+      }
+    },
+    "fortune_2026_money": {
+      "slots": {
+        "money_flow": [],
+        "drivers": {
+          "emotion_engines": [],
+          "action_rhythm": null
+        }
+      },
+      "evidence": [
+        [
+          "정재",
+          "庚",
+          "목욕"
+        ],
+        [
+          "편재",
+          "辛",
+          "병"
+        ]
+      ]
+    },
+    "fortune_2026_love": {
+      "slots": {
+        "love_flow": [
+          "love.engine_정재",
+          "love.state_rhythm.sensitive",
+          "love.engine_편재",
+          "love.state_rhythm.fatigue"
+        ],
+        "drivers": {
+          "emotion_engines": [],
+          "action_rhythm": null
+        }
+      },
+      "evidence": [
+        [
+          "정재",
+          "庚",
+          "목욕"
+        ],
+        [
+          "편재",
+          "辛",
+          "병"
+        ]
+      ]
+    },
+    "fortune_2026_job": {
+      "slots": {
+        "job_flow": [
+          "job.engine_상관",
+          "job.state_rhythm.peak",
+          "job.engine_식신",
+          "job.state_rhythm.stable",
+          "job.engine_정관",
+          "job.state_rhythm.conceiving",
+          "job.engine_편관",
+          "job.state_rhythm.cutoff"
+        ],
+        "drivers": {
+          "emotion_engines": [],
+          "action_rhythm": null
+        }
+      },
+      "evidence": [
+        [
+          "상관",
+          "戊",
+          "제왕"
+        ],
+        [
+          "식신",
+          "己",
+          "건록"
+        ],
+        [
+          "정관",
+          "壬",
+          "태"
+        ],
+        [
+          "편관",
+          "癸",
+          "절"
+        ]
+      ]
+    },
+    "today": {
+      "slots": {
+        "today_wave": [
+          "today.unknown"
+        ],
+        "today_money": [
+          "money.engine_정재",
+          "money.state_rhythm.birth",
+          "money.engine_편재",
+          "money.state_rhythm.resting"
+        ],
+        "today_love": [
+          "love.engine_정재",
+          "love.state_rhythm.birth",
+          "love.engine_편재",
+          "love.state_rhythm.resting"
+        ],
+        "today_job": [
+          "job.engine_상관",
+          "job.state_rhythm.expanding",
+          "job.engine_식신",
+          "job.state_rhythm.declining",
+          "job.engine_정관",
+          "job.state_rhythm.resting",
+          "job.engine_편관",
+          "job.state_rhythm.birth"
+        ]
+      },
+      "evidence": {
+        "base": {
+          "ganji": "戊辰",
+          "sipshin": "상관",
+          "unseong": "관대",
+          "reference": "day_gan"
+        },
+        "operation": {
+          "money": [
+            [
+              "정재",
+              "庚",
+              "양"
+            ],
+            [
+              "편재",
+              "辛",
+              "묘"
+            ]
+          ],
+          "love": [
+            [
+              "정재",
+              "庚",
+              "양"
+            ],
+            [
+              "편재",
+              "辛",
+              "묘"
+            ]
+          ],
+          "job": [
+            [
+              "상관",
+              "戊",
+              "관대"
+            ],
+            [
+              "식신",
+              "己",
+              "쇠"
+            ],
+            [
+              "정관",
+              "壬",
+              "묘"
+            ],
+            [
+              "편관",
+              "癸",
+              "양"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

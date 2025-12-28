@@ -1,0 +1,21 @@
+{
+  "schema": {
+    "name": "ganji_branch_lexicon",
+    "version": "1.0",
+    "source": "7-B-4_Earthly_Branch_Existential_Lexicon_v1.0"
+  },
+  "branches": {
+    "子": { "exposure": "latent", "temperature": "cold", "time": "floor", "transformation_force": "low" },
+    "丑": { "exposure": "latent", "temperature": "cold", "time": "storage", "transformation_force": "medium" },
+    "寅": { "exposure": "high",   "temperature": "rising", "time": "launch", "transformation_force": "medium" },
+    "卯": { "exposure": "high",   "temperature": "mild", "time": "expansion", "transformation_force": "low" },
+    "辰": { "exposure": "mid",    "temperature": "mixed", "time": "transition", "transformation_force": "high" },
+    "巳": { "exposure": "low",    "temperature": "inner_fire", "time": "compression", "transformation_force": "very_high" },
+    "午": { "exposure": "high",   "temperature": "outer_fire", "time": "immediate", "transformation_force": "low" },
+    "未": { "exposure": "mid",    "temperature": "warm", "time": "fermentation", "transformation_force": "medium" },
+    "申": { "exposure": "high",   "temperature": "cool", "time": "cut", "transformation_force": "high" },
+    "酉": { "exposure": "high",   "temperature": "cool", "time": "harvest", "transformation_force": "medium" },
+    "戌": { "exposure": "low",    "temperature": "dry", "time": "closure", "transformation_force": "high" },
+    "亥": { "exposure": "latent", "temperature": "cold", "time": "gestation", "transformation_force": "low" }
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "contract": "TBOO_INTERPRETATION_CONTRACT",
+    "version": "1.0",
+    "generated_at": "2025-12-25T23:06:22.708395",
+    "engine_stack": {
+      "calculation_engine": "TBOO_SAJU_ENGINE",
+      "meaning_engine": "TBOO_MEANING_ENGINE"
+    },
+    "language": "ko",
+    "timezone": "Asia/Seoul"
+  },
+  "calculation": {
+    "schema_version": "3.3",
+    "user_info": {
+      "name": "서장원",
+      "gender": "남성",
+      "birthday": "1995-02-25 10:30"
+    },
+    "fortune_layers": {
+      "daeun": {
+        "type": "environment",
+        "weight": 1.0
+      },
+      "year": {
+        "type": "event",
+        "weight": 0.7
+      },
+      "month": {
+        "type": "environment_sub",
+        "weight": 0.4
+      },
+      "day": {
+        "type": "event_peak",
+        "weight": 1.2
+      }
+    },
+    "saju": {
+      "year": "乙亥",
+      "month": "戊寅",
+      "day": "丁亥",
+      "hour": "乙巳"
+    },
+    "pillars_detail": {
+      "year": {
+        "label": "년주",
+        "gan": "乙",
+        "ji": "亥",
+        "sipshin": "편인",
+        "un12": "사",
+        "status": "observed"
+      },
+      "month": {
+        "label": "월주",
+        "gan": "戊",
+        "ji": "寅",
+        "sipshin": "상관",
+        "un12": "장생",
+        "status": "observed"
+      },
+      "day": {
+        "label": "일주",
+        "gan": "丁",
+        "ji": "亥",
+        "sipshin": "일간",
+        "un12": "태",
+        "status": "observed"
+      },
+      "hour": {
+        "label": "시주",
+        "gan": "乙",
+        "ji": "巳",
+        "sipshin": "편인",
+        "un12": "목욕",
+        "status": "observed"
+      }
+    },
+    "sipshin": {
+      "원국_년간": "편인",
+      "원국_월간": "상관",
+      "원국_시간": "편인"
+    },
+    "unseong": {
+      "년지": "사",
+      "월지": "장생",
+      "일지": "태",
+      "시지": "목욕"
+    },
+    "daeun_detail": [
+      {
+        "index": 0,
+        "label": "만 6세부터 丁丑 대운 시작 (2001)",
+        "ganji": [
+          "丁",
+          "丑"
+        ],
+        "gan": "丁",
+        "ji": "丑",
+        "sipshin": "비견",
+        "un12": "묘"
+      },
+      {
+        "index": 1,
+        "label": "만 16세부터 丙子 대운 시작 (2011)",
+        "ganji": [
+          "丙",
+          "子"
+        ],
+        "gan": "丙",
+        "ji": "子",
+        "sipshin": "겁재",
+        "un12": "태"
+      },
+      {
+        "index": 2,
+        "label": "만 26세부터 乙亥 대운 시작 (2021)",
+        "ganji": [
+          "乙",
+          "亥"
+        ],
+        "gan": "乙",
+        "ji": "亥",
+        "sipshin": "편인",
+        "un12": "사"
+      },
+      {
+        "index": 3,
+        "label": "만 36세부터 甲戌 대운 시작 (2031)",
+        "ganji": [
+          "甲",
+          "戌"
+        ],
+        "gan": "甲",
+        "ji": "戌",
+        "sipshin": "정인",
+        "un12": "양"
+      },
+      {
+        "index": 4,
+        "label": "만 46세부터 癸酉 대운 시작 (2041)",
+        "ganji": [
+          "癸",
+          "酉"
+        ],
+        "gan": "癸",
+        "ji": "酉",
+        "sipshin": "편관",
+        "un12": "병"
+      },
+      {
+        "index": 5,
+        "label": "만 56세부터 壬申 대운 시작 (2051)",
+        "ganji": [
+          "壬",
+          "申"
+        ],
+        "gan": "壬",
+        "ji": "申",
+        "sipshin": "정관",
+        "un12": "장생"
+      },
+      {
+        "index": 6,
+        "label": "만 66세부터 辛未 대운 시작 (2061)",
+        "ganji": [
+          "辛",
+          "未"
+        ],
+        "gan": "辛",
+        "ji": "未",
+        "sipshin": "편재",
+        "un12": "쇠"
+      },
+      {
+        "index": 7,
+        "label": "만 76세부터 庚午 대운 시작 (2071)",
+        "ganji": [
+          "庚",
+          "午"
+        ],
+        "gan": "庚",
+        "ji": "午",
+        "sipshin": "정재",
+        "un12": "목욕"
+      },
+      {
+        "index": 8,
+        "label": "만 86세부터 己巳 대운 시작 (2081)",
+        "ganji": [
+          "己",
+          "巳"
+        ],
+        "gan": "己",
+        "ji": "巳",
+        "sipshin": "식신",
+        "un12": "제왕"
+      },
+      {
+        "index": 9,
+        "label": "만 96세부터 戊辰 대운 시작 (2091)",
+        "ganji": [
+          "戊",
+          "辰"
+        ],
+        "gan": "戊",
+        "ji": "辰",
+        "sipshin": "상관",
+        "un12": "관대"
+      }
+    ],
+    "daeun": {
+      "labels": [
+        "만 6세부터 丁丑 대운 시작 (2001)",
+        "만 16세부터 丙子 대운 시작 (2011)",
+        "만 26세부터 乙亥 대운 시작 (2021)",
+        "만 36세부터 甲戌 대운 시작 (2031)",
+        "만 46세부터 癸酉 대운 시작 (2041)",
+        "만 56세부터 壬申 대운 시작 (2051)",
+        "만 66세부터 辛未 대운 시작 (2061)",
+        "만 76세부터 庚午 대운 시작 (2071)",
+        "만 86세부터 己巳 대운 시작 (2081)",
+        "만 96세부터 戊辰 대운 시작 (2091)"
+      ],
+      "years_traditional": 2001,
+      "ages": 7
+    },
+    "today": {
+      "base": {
+        "ganji": "戊辰",
+        "sipshin": "상관",
+        "unseong": "관대",
+        "reference": "day_gan"
+      },
+      "operation": {
+        "money": [
+          [
+            "정재",
+            "庚",
+            "양"
+          ],
+          [
+            "편재",
+            "辛",
+            "묘"
+          ]
+        ],
+        "love": [
+          [
+            "정재",
+            "庚",
+            "양"
+          ],
+          [
+            "편재",
+            "辛",
+            "묘"
+          ]
+        ],
+        "job": [
+          [
+            "상관",
+            "戊",
+            "관대"
+          ],
+          [
+            "식신",
+            "己",
+            "쇠"
+          ],
+          [
+            "정관",
+            "壬",
+            "묘"
+          ],
+          [
+            "편관",
+            "癸",
+            "양"
+          ]
+        ]
+      }
+    },
+    "year_2026_operation": {
+      "flow": [
+        [
+          "원국_월간",
+          "戊",
+          "상관",
+          "제왕"
+        ],
+        [
+          "원국_년간",
+          "乙",
+          "편인",
+          "장생"
+        ],
+        [
+          "원국_시간",
+          "乙",
+          "편인",
+          "장생"
+        ],
+        [
+          "세운_천간_2026",
+          "丙",
+          "겁재",
+          "제왕"
+        ]
+      ],
+      "money": [
+        [
+          "정재",
+          "庚",
+          "목욕"
+        ],
+        [
+          "편재",
+          "辛",
+          "병"
+        ]
+      ],
+      "love": [
+        [
+          "정재",
+          "庚",
+          "목욕"
+        ],
+        [
+          "편재",
+          "辛",
+          "병"
+        ]
+      ],
+      "job": [
+        [
+          "상관",
+          "戊",
+          "제왕"
+        ],
+        [
+          "식신",
+          "己",
+          "건록"
+        ],
+        [
+          "정관",
+          "壬",
+          "태"
+        ],
+        [
+          "편관",
+          "癸",
+          "절"
+        ]
+      ]
+    },
+    "hour_pillar_state": {
+      "status": "observed",
+      "observability": "observed",
+      "confidence": 1.0,
+      "note": null
+    },
+    "interpretive_constraint": {
+      "hour_pillar": "observed"
+    }
+  },
+  "meaning": {
+    "meta": {
+      "engine": "TBOO_MEANING_ENGINE",
+      "version": "meaning_slots_v1.1",
+      "note": "Slots-only output. No materials, no narrative directives."
+    },
+    "subject": {
+      "name": "서장원",
+      "gender": "남성",
+      "birthday": "1995-02-25 10:30"
+    },
+    "context": {},
+    "pillars_ontology": {
+      "year": {
+        "gan": "乙",
+        "ji": "亥",
+        "stem_desire": {
+          "vector": "adaptation",
+          "existential_drive": "to adjust",
+          "force_profile": {
+            "direction": "outward",
+            "speed": "slow",
+            "compression": "medium"
+          },
+          "tension_axis": [
+            "stability",
+            "mutation"
+          ],
+          "meta_archetype_refs": [
+            "Adaptive Alchemist",
+            "Boundary Mediator"
+          ]
+        },
+        "branch_environment": {
+          "exposure": "latent",
+          "temperature": "cold",
+          "time": "gestation",
+          "transformation_force": "low"
+        },
+        "combination_type": "Latency",
+        "combination_judgement": {
+          "type": "Latency",
+          "why": [
+            "fallback"
+          ],
+          "rule_id": null
+        }
+      },
+      "month": {
+        "gan": "戊",
+        "ji": "寅",
+        "stem_desire": {
+          "vector": "anchoring",
+          "existential_drive": "to hold",
+          "force_profile": {
+            "direction": "central",
+            "speed": "slow",
+            "compression": "high"
+          },
+          "tension_axis": [
+            "stability",
+            "stagnation"
+          ],
+          "meta_archetype_refs": [
+            "Accumulating Vessel",
+            "Anchoring Core"
+          ]
+        },
+        "branch_environment": {
+          "exposure": "high",
+          "temperature": "rising",
+          "time": "launch",
+          "transformation_force": "medium"
+        },
+        "combination_type": "Latency",
+        "combination_judgement": {
+          "type": "Latency",
+          "why": [
+            "fallback"
+          ],
+          "rule_id": null
+        }
+      },
+      "day": {
+        "gan": "丁",
+        "ji": "亥",
+        "stem_desire": {
+          "vector": "refinement",
+          "existential_drive": "to refine",
+          "force_profile": {
+            "direction": "focused",
+            "speed": "slow",
+            "compression": "high"
+          },
+          "tension_axis": [
+            "precision",
+            "fragility"
+          ],
+          "meta_archetype_refs": [
+            "Adaptive Alchemist"
+          ]
+        },
+        "branch_environment": {
+          "exposure": "latent",
+          "temperature": "cold",
+          "time": "gestation",
+          "transformation_force": "low"
+        },
+        "combination_type": "Latency",
+        "combination_judgement": {
+          "type": "Latency",
+          "why": [
+            "fallback"
+          ],
+          "rule_id": null
+        }
+      },
+      "hour": {
+        "gan": "乙",
+        "ji": "巳",
+        "stem_desire": {
+          "vector": "adaptation",
+          "existential_drive": "to adjust",
+          "force_profile": {
+            "direction": "outward",
+            "speed": "slow",
+            "compression": "medium"
+          },
+          "tension_axis": [
+            "stability",
+            "mutation"
+          ],
+          "meta_archetype_refs": [
+            "Adaptive Alchemist",
+            "Boundary Mediator"
+          ]
+        },
+        "branch_environment": {
+          "exposure": "low",
+          "temperature": "inner_fire",
+          "time": "compression",
+          "transformation_force": "very_high"
+        },
+        "combination_type": "Latency",
+        "combination_judgement": {
+          "type": "Latency",
+          "why": [
+            "fallback"
+          ],
+          "rule_id": null
+        }
+      }
+    },
+    "meaning_payload": {
+      "natal": {
+        "slots": {
+          "existence_type": "existence.latent",
+          "desire_direction": "desire.refinement",
+          "emotion_engines": [],
+          "action_rhythm": null,
+          "pillars_combination_types": {
+            "year": "Latency",
+            "month": "Latency",
+            "day": "Latency",
+            "hour": "Latency"
+          }
+        },
+        "evidence": {
+          "pillars": {
+            "year": "乙亥",
+            "month": "戊寅",
+            "day": "丁亥",
+            "hour": "乙巳"
+          },
+          "sipshin": {
+            "원국_년간": "편인",
+            "원국_월간": "상관",
+            "원국_시간": "편인"
+          },
+          "unseong": {
+            "년지": "사",
+            "월지": "장생",
+            "일지": "태",
+            "시지": "목욕"
+          }
+        }
+      },
+      "fortune_2026_overall": {
+        "slots": {
+          "year_theme": [
+            "year_theme.by_상관",
+            "year_theme.state_rhythm.peak"
+          ],
+          "year_flow": [
+            {
+              "source": "원국_월간",
+              "gan": "戊",
+              "sipshin": "상관",
+              "unseong": "제왕"
+            },
+            {
+              "source": "원국_년간",
+              "gan": "乙",
+              "sipshin": "편인",
+              "unseong": "장생"
+            },
+            {
+              "source": "원국_시간",
+              "gan": "乙",
+              "sipshin": "편인",
+              "unseong": "장생"
+            },
+            {
+              "source": "세운_천간_2026",
+              "gan": "丙",
+              "sipshin": "겁재",
+              "unseong": "제왕"
+            }
+          ],
+          "anchors": {
+            "natal_exist": "existence.latent",
+            "natal_rhythm": null
+          }
+        },
+        "evidence": {
+          "flow": [
+            [
+              "원국_월간",
+              "戊",
+              "상관",
+              "제왕"
+            ],
+            [
+              "원국_년간",
+              "乙",
+              "편인",
+              "장생"
+            ],
+            [
+              "원국_시간",
+              "乙",
+              "편인",
+              "장생"
+            ],
+            [
+              "세운_천간_2026",
+              "丙",
+              "겁재",
+              "제왕"
+            ]
+          ],
+          "money": [
+            [
+              "정재",
+              "庚",
+              "목욕"
+            ],
+            [
+              "편재",
+              "辛",
+              "병"
+            ]
+          ],
+          "love": [
+            [
+              "정재",
+              "庚",
+              "목욕"
+            ],
+            [
+              "편재",
+              "辛",
+              "병"
+            ]
+          ],
+          "job": [
+            [
+              "상관",
+              "戊",
+              "제왕"
+            ],
+            [
+              "식신",
+              "己",
+              "건록"
+            ],
+            [
+              "정관",
+              "壬",
+              "태"
+            ],
+            [
+              "편관",
+              "癸",
+              "절"
+            ]
+          ]
+        }
+      },
+      "fortune_2026_money": {
+        "slots": {
+          "money_flow": [],
+          "drivers": {
+            "emotion_engines": [],
+            "action_rhythm": null
+          }
+        },
+        "evidence": [
+          [
+            "정재",
+            "庚",
+            "목욕"
+          ],
+          [
+            "편재",
+            "辛",
+            "병"
+          ]
+        ]
+      },
+      "fortune_2026_love": {
+        "slots": {
+          "love_flow": [
+            "love.engine_정재",
+            "love.state_rhythm.sensitive",
+            "love.engine_편재",
+            "love.state_rhythm.fatigue"
+          ],
+          "drivers": {
+            "emotion_engines": [],
+            "action_rhythm": null
+          }
+        },
+        "evidence": [
+          [
+            "정재",
+            "庚",
+            "목욕"
+          ],
+          [
+            "편재",
+            "辛",
+            "병"
+          ]
+        ]
+      },
+      "fortune_2026_job": {
+        "slots": {
+          "job_flow": [
+            "job.engine_상관",
+            "job.state_rhythm.peak",
+            "job.engine_식신",
+            "job.state_rhythm.stable",
+            "job.engine_정관",
+            "job.state_rhythm.conceiving",
+            "job.engine_편관",
+            "job.state_rhythm.cutoff"
+          ],
+          "drivers": {
+            "emotion_engines": [],
+            "action_rhythm": null
+          }
+        },
+        "evidence": [
+          [
+            "상관",
+            "戊",
+            "제왕"
+          ],
+          [
+            "식신",
+            "己",
+            "건록"
+          ],
+          [
+            "정관",
+            "壬",
+            "태"
+          ],
+          [
+            "편관",
+            "癸",
+            "절"
+          ]
+        ]
+      },
+      "today": {
+        "slots": {
+          "today_wave": [
+            "today.unknown"
+          ],
+          "today_money": [
+            "money.engine_정재",
+            "money.state_rhythm.birth",
+            "money.engine_편재",
+            "money.state_rhythm.resting"
+          ],
+          "today_love": [
+            "love.engine_정재",
+            "love.state_rhythm.birth",
+            "love.engine_편재",
+            "love.state_rhythm.resting"
+          ],
+          "today_job": [
+            "job.engine_상관",
+            "job.state_rhythm.expanding",
+            "job.engine_식신",
+            "job.state_rhythm.declining",
+            "job.engine_정관",
+            "job.state_rhythm.resting",
+            "job.engine_편관",
+            "job.state_rhythm.birth"
+          ]
+        },
+        "evidence": {
+          "base": {
+            "ganji": "戊辰",
+            "sipshin": "상관",
+            "unseong": "관대",
+            "reference": "day_gan"
+          },
+          "operation": {
+            "money": [
+              [
+                "정재",
+                "庚",
+                "양"
+              ],
+              [
+                "편재",
+                "辛",
+                "묘"
+              ]
+            ],
+            "love": [
+              [
+                "정재",
+                "庚",
+                "양"
+              ],
+              [
+                "편재",
+                "辛",
+                "묘"
+              ]
+            ],
+            "job": [
+              [
+                "상관",
+                "戊",
+                "관대"
+              ],
+              [
+                "식신",
+                "己",
+                "쇠"
+              ],
+              [
+                "정관",
+                "壬",
+                "묘"
+              ],
+              [
+                "편관",
+                "癸",
+                "양"
+              ]
+            ]
+          }
+        }
+      }
+    }
+  }
+}
